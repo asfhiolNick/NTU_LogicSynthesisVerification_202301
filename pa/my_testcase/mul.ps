@@ -1,0 +1,695 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 9.0.0 (20230911.1827)
+%%Title: DD
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 216 576 576
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 216 540 360 boxprim clip newpath
+0.892262 0.892262 set_scale 0 rotate 44.3469 245.816 translate
+% CONST NODES
+%  b1 
+gsave
+0 0 0 nodecolor
+14 /Times-Roman set_font
+44 300.95 moveto 21 ( b1 ) alignedtext
+grestore
+%  a0 
+gsave
+0 0 0 nodecolor
+14 /Times-Roman set_font
+44.375 228.95 moveto 20.25 ( a0 ) alignedtext
+grestore
+%  b1 -> a0 
+%  b0 
+gsave
+0 0 0 nodecolor
+14 /Times-Roman set_font
+44 156.95 moveto 21 ( b0 ) alignedtext
+grestore
+%  a0 -> b0 
+%  a1 
+gsave
+0 0 0 nodecolor
+14 /Times-Roman set_font
+44.375 84.95 moveto 20.25 ( a1 ) alignedtext
+grestore
+%  b0 -> a1 
+%  a1 ->CONST NODES
+%   y3  
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 201.5 396 moveto
+147.5 396 lineto
+147.5 360 lineto
+201.5 360 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+160.25 372.95 moveto 28.5 (  y3  ) alignedtext
+grestore
+%   y2  
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 273.5 396 moveto
+219.5 396 lineto
+219.5 360 lineto
+273.5 360 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+232.25 372.95 moveto 28.5 (  y2  ) alignedtext
+grestore
+%   y3  ->  y2  
+% b
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+164.5 306 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+161.125 300.95 moveto 6.75 (b) alignedtext
+grestore
+%   y3  ->b
+gsave
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 172.0281 359.6966 moveto
+170.478 348.8463 168.4881 334.9167 166.9435 324.1043 curveto
+stroke
+grestore
+%   y1  
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 378.5 396 moveto
+324.5 396 lineto
+324.5 360 lineto
+378.5 360 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+337.25 372.95 moveto 28.5 (  y1  ) alignedtext
+grestore
+%   y2  ->  y1  
+% 1b
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+246.5 306 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+239.75 300.95 moveto 13.5 (1b) alignedtext
+grestore
+%   y2  ->1b
+gsave
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 246.5 359.6966 moveto
+246.5 348.8463 246.5 334.9167 246.5 324.1043 curveto
+stroke
+grestore
+%   y0  
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 477.5 396 moveto
+423.5 396 lineto
+423.5 360 lineto
+477.5 360 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+436.25 372.95 moveto 28.5 (  y0  ) alignedtext
+grestore
+%   y1  ->  y0  
+% 20
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+351.5 306 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+344.75 300.95 moveto 13.5 (20) alignedtext
+grestore
+%   y1  ->20
+gsave
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 351.5 359.6966 moveto
+351.5 348.8463 351.5 334.9167 351.5 324.1043 curveto
+stroke
+grestore
+% 22
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+464.5 234 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+457.75 228.95 moveto 13.5 (22) alignedtext
+grestore
+%   y0  ->22
+gsave
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 452.2167 359.588 moveto
+454.9183 332.1863 460.13 279.3248 462.813 252.1109 curveto
+stroke
+grestore
+% 1f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+392.5 234 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+386.875 228.95 moveto 11.25 (1f) alignedtext
+grestore
+% 20->1f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 361.0093 288.7646 moveto
+367.6329 277.456 376.43 262.4367 383.0423 251.1473 curveto
+stroke
+grestore
+% 19
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+341.5 162 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+334.75 156.95 moveto 13.5 (19) alignedtext
+grestore
+% 20->19
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 350.2738 287.588 moveto
+348.3441 260.1863 344.6215 207.3248 342.705 180.1109 curveto
+stroke
+grestore
+% 18
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+164.5 234 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+157.75 228.95 moveto 13.5 (18) alignedtext
+grestore
+% b->18
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.5 287.6966 moveto
+164.5 276.8463 164.5 262.9167 164.5 252.1043 curveto
+stroke
+grestore
+% 1
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 344.5 36 moveto
+290.5 36 lineto
+290.5 0 lineto
+344.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+314.125 12.95 moveto 6.75 (0) alignedtext
+grestore
+% b->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 150.7496 290.0688 moveto
+142.5392 280.1003 132.881 266.2469 128.5 252 curveto
+109.0767 188.8365 163.664 85.3306 176.5 72 curveto
+207.0643 40.258 258.4792 27.3401 290.0554 22.2178 curveto
+stroke
+grestore
+% 17
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+274.5 234 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+267.75 228.95 moveto 13.5 (17) alignedtext
+grestore
+% 1b->17
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 253.1356 288.411 moveto
+257.599 277.2524 263.4586 262.6036 267.912 251.4699 curveto
+stroke
+grestore
+% 1b->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 241.1195 288.1064 moveto
+232.4976 258.2915 218.048 194.6976 233.5 144 curveto
+246.6875 100.7321 280.4124 58.8585 300.8947 36.2542 curveto
+stroke
+grestore
+% 21
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+489.5 162 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+482.75 156.95 moveto 13.5 (21) alignedtext
+grestore
+% 22->21
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 470.5518 216.055 moveto
+474.4824 205.0492 479.5844 190.7636 483.5039 179.789 curveto
+stroke
+grestore
+% 22->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 460.1921 215.9894 moveto
+450.676 179.4072 427.2224 94.7275 408.5 72 curveto
+391.7606 51.6796 365.06 37.4502 344.9011 28.8888 curveto
+stroke
+grestore
+% 1c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+561.5 162 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+555.125 156.95 moveto 12.75 (1c) alignedtext
+grestore
+% 1f->1c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 413.6841 222.6269 moveto
+418.5183 220.3632 423.6582 218.0373 428.5 216 curveto
+470.8852 198.1658 483.1148 197.8342 525.5 180 curveto
+530.3418 177.9627 535.4817 175.6368 540.3159 173.3731 curveto
+stroke
+grestore
+% 1f->19
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 381.1814 217.4647 moveto
+372.7299 205.8645 361.2309 190.0816 352.7869 178.4918 curveto
+stroke
+grestore
+% 18->19
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 188.1833 224.7653 moveto
+216.3875 214.8057 264.7992 197.2255 305.5 180 curveto
+310.3376 177.9526 315.4757 175.6226 320.3095 173.3582 curveto
+stroke
+grestore
+% 18->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 163.6142 215.5933 moveto
+162.918 183.5351 165.8956 114.5549 200.5 72 curveto
+223.1508 44.1451 263.5874 30.3637 290.4796 23.9713 curveto
+stroke
+grestore
+% 16
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+269.5 162 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+262.75 156.95 moveto 13.5 (16) alignedtext
+grestore
+% 17->16
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 273.264 215.6966 moveto
+272.489 204.8463 271.4941 190.9167 270.7217 180.1043 curveto
+stroke
+grestore
+% 12
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+372.5 90 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+365.75 84.95 moveto 13.5 (12) alignedtext
+grestore
+% 17->12
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 300.0203 227.8188 moveto
+324.6975 221.3046 360.7425 207.4686 377.5 180 curveto
+390.9597 157.937 384.7309 126.7852 378.7732 107.7915 curveto
+stroke
+grestore
+% e
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+524.5 90 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+521.5 84.95 moveto 6 (e) alignedtext
+grestore
+% 1c->e
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 552.9185 144.7646 moveto
+546.941 133.456 539.0022 118.4367 533.035 107.1473 curveto
+stroke
+grestore
+% 0
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 578.5 36 moveto
+524.5 36 lineto
+524.5 0 lineto
+578.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+548.125 12.95 moveto 6.75 (1) alignedtext
+grestore
+% 1c->0
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 573.7432 145.8155 moveto
+581.0497 135.7459 589.6361 121.875 593.5 108 curveto
+597.7923 92.5865 598.7612 87.1102 593.5 72 curveto
+588.7902 58.4734 579.0307 45.8024 570.1042 36.2436 curveto
+stroke
+grestore
+% 19->12
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 348.8466 144.411 moveto
+353.7882 133.2524 360.2756 118.6036 365.2062 107.4699 curveto
+stroke
+grestore
+% 19->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 338.605 143.8715 moveto
+333.9921 116.5784 325.0246 63.5205 320.4052 36.1893 curveto
+stroke
+grestore
+% 21->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 485.0791 144.0449 moveto
+479.1337 124.3132 466.7719 91.9009 445.5 72 curveto
+416.9588 45.2983 373.0768 31.1401 344.8297 24.3599 curveto
+stroke
+grestore
+% 21->0
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 511.6416 151.3502 moveto
+528.4588 142.6881 550.365 128.2129 560.5 108 curveto
+571.916 85.2322 565.0117 55.11 558.5748 36.4002 curveto
+stroke
+grestore
+% 16->12
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 287.9143 148.4854 moveto
+306.6623 135.7441 335.5549 116.1083 354.2451 103.4063 curveto
+stroke
+grestore
+% 16->1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 275.1947 144.1531 moveto
+284.3831 116.9709 302.3846 63.7165 311.663 36.2678 curveto
+stroke
+grestore
+% e->1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 502.0772 79.3042 moveto
+496.0816 76.8214 489.578 74.2259 483.5 72 curveto
+435.207 54.3141 377.8506 36.7454 344.7644 26.9373 curveto
+stroke
+grestore
+% e->0
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 531.0359 72.055 moveto
+535.2186 61.2111 540.6294 47.183 544.8367 36.2753 curveto
+stroke
+grestore
+% 12->1
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 360.2937 73.4647 moveto
+351.6856 62.509 340.1461 47.8223 331.2192 36.4609 curveto
+stroke
+grestore
+% 12->0
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 395.5347 79.992 moveto
+428.4886 67.105 488.9839 43.4477 524.1623 29.6907 curveto
+stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+end
+restore
+%%EOF

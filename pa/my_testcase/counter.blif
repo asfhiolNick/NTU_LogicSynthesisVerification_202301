@@ -1,0 +1,11 @@
+.model counter
+.inputs a b c d
+.outputs y
+
+.names a b c d y
+0-1- 1
+101- 1
+11-0 1
+1111 1
+
+.end

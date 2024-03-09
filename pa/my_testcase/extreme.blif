@@ -1,0 +1,11 @@
+.model branch
+.inputs a b c d e f g
+.outputs y
+
+.names a b c d e f g y
+1---111 1
+01--111 1
+001-111 1
+0001111 1
+
+.end

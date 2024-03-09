@@ -1,0 +1,8 @@
+.model add
+.inputs a b c
+.outputs y
+
+.names a b c y
+000 0
+
+.end
