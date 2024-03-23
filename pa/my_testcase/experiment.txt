@@ -1,0 +1,30 @@
+read my_testcase/add.blif
+collapse
+lsv_trav_all
+read my_testcase/adder.blif
+collapse
+lsv_trav_all
+read my_testcase/branch.blif
+collapse
+lsv_trav_all
+read my_testcase/counter.blif
+collapse
+lsv_trav_all
+read my_testcase/extreme.blif
+collapse
+lsv_trav_all
+read my_testcase/int2float.blif
+collapse
+lsv_trav_all
+read my_testcase/max3.blif
+collapse
+lsv_trav_all
+read my_testcase/max4.blif
+collapse
+lsv_trav_all
+read my_testcase/mul.blif
+collapse
+lsv_trav_all
+read my_testcase/router.blif
+collapse
+lsv_trav_all
